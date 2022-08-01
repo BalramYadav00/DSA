@@ -1,0 +1,63 @@
+.projectCount{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  .ProjectCounttip{
+      text-align: left;
+      padding: 3px;
+      padding-bottom: 10px;
+      margin-left: 14px;
+      position: absolute;
+      width: 110px;
+      left: -140px;
+      visibility: hidden;
+      font-size: 9px;
+      background: transparent;
+  }
+  .ProjectCounttip div{
+    line-height: 10px;
+    margin-bottom: 8px;
+  }
+  .projectCount .ProjectCounttip::after {
+    border-color:  black transparent transparent;
+  }
+  .projectCount:hover .ProjectCounttip {
+    visibility: visible;
+    background: none;
+    background-image: linear-gradient(175.2deg, rgb(12, 10, 39) 0%, rgba(0, 0, 0, 0) 101.53%);
+  }
+  .projectCount:hover {
+      text-decoration: underline;
+  }
+
+  .isSegmented{
+    color: #fff;
+    margin-top: 0px;
+  }
+
+  .select{
+    /* color: #fff; */
+    border: none;
+    background-color: #fff;
+  }
+
+  .flexx{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
+
+  .dft{
+    font-weight: 600;
+  }
+  .unactive-segmenting {
+    font-weight: 600;
+    color: grey;
+  }
+
+  .isSegmented>p {
+    cursor: pointer;
+  }
